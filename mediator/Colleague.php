@@ -19,7 +19,7 @@ abstract class Colleague
      *
      * @var MediatorInterface
      */
-    public $mediator;
+    private $mediator;
 
     /**
      * @param MediatorInterface $mediator
