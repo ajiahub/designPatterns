@@ -1,13 +1,5 @@
 <?php
-/*
-### EXPLICAÇÕES ####
-
-No exemplo abaixo abstraimos os detalhes do "Windows", ou seja abstraimos o comportamento dele de ligar e
-desligar através da interface "PowerDevice". Agora "invertemos" a dependência do "Button" para o 
-"Windows", ou seja, ambos dependem de abstração. Dessa fora a classe "Button" poderá travalhar com qualquer
-"Power Device", não se preocupando como os detalhes do mesmo.
-*/
-namespace GSoares\SOLID\DependencyInversion;
+namespace solid\DependencyInversion;
 
 interface PowerDevice
 {

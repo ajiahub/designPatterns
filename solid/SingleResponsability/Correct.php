@@ -1,11 +1,5 @@
 <?php
-/*
- ### EXPLICAÇÕES ####
-
-Para distribuir as resonsabilidades de forma correta, agora a classe "Account" efetua o cálculo de saldo e 
-a classe "Sale" apenas calcula o valor da venda e repassa o mesmo para um metodo da classe "Account" calcular o saldo.
-*/
-namespace GSoares\SOLID\SingleResponsability;
+namespace solid\SingleResponsability;
 
 class NoBalanceAvailableException extends \Exception {}
 
