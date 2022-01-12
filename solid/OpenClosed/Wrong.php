@@ -26,11 +26,9 @@ class Driver
         if ($vehicle instanceof Motorcycle) {
             $this->turnOnMotorcycle();
         }
-
         if ($vehicle instanceof Car) {
             $this->turnOnCar();
         }
-
         $vehicle->run();
     }
 
