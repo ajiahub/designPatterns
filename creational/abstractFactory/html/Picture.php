@@ -1,7 +1,9 @@
 <?php
+
 namespace creational\abstractFactory\html;
 
 use creational\abstractFactory\Picture as BasePicture;
+
 /**
  * ---------------------------------------
  * Picture.php
@@ -9,6 +11,7 @@ use creational\abstractFactory\Picture as BasePicture;
  * Date: 2019/6/20 14:16
  * ---------------------------------------
  */
+
 /**
  * Picture 类
  *

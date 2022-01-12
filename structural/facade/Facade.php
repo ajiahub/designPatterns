@@ -16,7 +16,7 @@ class Facade
 
     /**
      * @param BiosInterface $bios
-     * @param OsInterface $os
+     * @param OsInterface   $os
      */
     public function __construct(BiosInterface $bios, OsInterface $os)
     {

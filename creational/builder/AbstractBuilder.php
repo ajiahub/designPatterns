@@ -1,4 +1,5 @@
 <?php
+
 namespace creational\builder;
 
 /**
@@ -16,18 +17,21 @@ abstract class AbstractBuilder
 
     /**
      * 创建小说的名字
+     *
      * @return [type] [description]
      */
     abstract function createName();
 
     /**
      * 创建主角
+     *
      * @return [type] [description]
      */
     abstract function createLeadRole();
 
     /**
      * 创建主角属性
+     *
      * @return [type] [description]
      */
     abstract function createProperty();
@@ -35,6 +39,7 @@ abstract class AbstractBuilder
 
     /**
      * 小说展示
+     *
      * @return [type] [description]
      */
     public function showNorvel()

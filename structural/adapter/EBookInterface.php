@@ -1,5 +1,7 @@
 <?php
+
 namespace structural\adapter;
+
 /**
  * ---------------------------------------
  * EBookInterface.php

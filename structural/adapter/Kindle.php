@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\adapter;
+
 /**
  * ---------------------------------------
  * Kindle.php

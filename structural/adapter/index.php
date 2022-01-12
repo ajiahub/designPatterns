@@ -1,8 +1,7 @@
 <?php
 
-use structural\adapter\Book;
-use structural\adapter\Kindle;
 use structural\adapter\EBookAdapter;
+use structural\adapter\Kindle;
 
 /**
  * ---------------------------------------

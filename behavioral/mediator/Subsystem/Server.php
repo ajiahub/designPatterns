@@ -1,6 +1,7 @@
 <?php
 
 namespace behavioral\mediator\Subsystem;
+
 /**
  * ---------------------------------------
  * Server.php

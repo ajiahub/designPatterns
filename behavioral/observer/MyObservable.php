@@ -1,6 +1,7 @@
 <?php
 
 namespace behavioral\observer;
+
 /**
  * ---------------------------------------
  * Observablervable.php
@@ -12,12 +13,14 @@ class MyObservable implements Observable
 {
     /**
      * data array
+     *
      * @var array
      */
     protected $data = [];
 
     /**
      * observers
+     *
      * @var \SplObjectStorage
      */
     protected $observers;
@@ -33,6 +36,7 @@ class MyObservable implements Observable
 
     /**
      * 附加观察者
+     *
      * @param \Closure $closure
      */
     public function attach(\Closure $closure)
@@ -42,6 +46,7 @@ class MyObservable implements Observable
 
     /**
      * 取消观察者
+     *
      * @param \Closure $closure
      */
     public function detach(\Closure $closure)
@@ -62,7 +67,9 @@ class MyObservable implements Observable
 
     /**
      * @inheritdoc
+     *
      * @param $name
+     *
      * @return mixed
      */
     public function __get($name)
@@ -72,6 +79,7 @@ class MyObservable implements Observable
 
     /**
      * @inheritdoc
+     *
      * @param $name
      * @param $value
      */

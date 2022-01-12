@@ -1,6 +1,7 @@
 <?php
 
 namespace creational\abstractFactory;
+
 /**
  * ---------------------------------------
  * AbstractFactory.php

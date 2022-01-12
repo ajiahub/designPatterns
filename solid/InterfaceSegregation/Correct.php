@@ -1,14 +1,16 @@
 <?php
+
 namespace solid\InterfaceSegregation;
 
-interface Vehicle 
+interface Vehicle
 {
-	public function run();
+    public function run();
 }
 
 interface AutomotiveVehicle extends Vehicle
 {
     public function turnOn();
+
     public function fuel();
 }
 
@@ -32,8 +34,8 @@ class Motorcycle implements AutomotiveVehicle
 
 class Bicycle implements Vehicle
 {
-	public function run() 
-	{
-		echo 'Bicycle running...';
-	}
+    public function run()
+    {
+        echo 'Bicycle running...';
+    }
 }

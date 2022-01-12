@@ -1,7 +1,9 @@
-<?php 
+<?php
+
 namespace creational\builder\norvel;
 
 use creational\builder\AbstractBuilder;
+
 /**
  * 具体建造者-求魔小说
  */

@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace structural\composite;
 
 class Force extends AbstractRole

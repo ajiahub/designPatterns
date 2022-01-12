@@ -1,11 +1,12 @@
-<?php 
+<?php
+
 namespace creational\builder;
+
 /**
  * 具体产品-小说
  */
-
 class Norvel
-{   
+{
     //小说名
     public $name;
 
@@ -17,7 +18,7 @@ class Norvel
 
     public function show()
     {
-        echo $this->name.':'.$this->leadRole.','.$this->property;
+        echo $this->name . ':' . $this->leadRole . ',' . $this->property;
         echo '<br>';
     }
 }

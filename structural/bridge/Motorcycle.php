@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\bridge;
+
 /**
  * ---------------------------------------
  * Motorcycle.php

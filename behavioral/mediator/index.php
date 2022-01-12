@@ -2,8 +2,8 @@
 
 use behavioral\mediator\Mediator;
 use behavioral\mediator\Subsystem\Client;
-use behavioral\mediator\Subsystem\Server;
 use behavioral\mediator\Subsystem\Database;
+use behavioral\mediator\Subsystem\Server;
 
 /**
  * ---------------------------------------

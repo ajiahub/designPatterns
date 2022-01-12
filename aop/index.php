@@ -8,10 +8,10 @@
  * ---------------------------------------
  */
 
+use aop\AOPProxy;
+use aop\Mail;
 use aop\Sms;
 use aop\User;
-use aop\Mail;
-use aop\AOPProxy;
 
 spl_autoload_register(function ($class) {
     require dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . str_replace('\\', DIRECTORY_SEPARATOR, $class) . '.php';

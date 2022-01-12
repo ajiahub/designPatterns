@@ -7,8 +7,8 @@
  */
 
 use creational\builder\Direct;
-use creational\builder\norvel\Qiumo;
 use creational\builder\norvel\Fengtian;
+use creational\builder\norvel\Qiumo;
 use creational\builder\norvel\Xianni;
 
 
@@ -19,6 +19,7 @@ spl_autoload_register(function ($class) {
 
 /**
  * 三个具体建造者
+ *
  * @var Qiumo
  */
 $qiumo = new Qiumo;

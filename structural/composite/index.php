@@ -3,9 +3,9 @@
  * 定义：将对象组合成树形结构以表示部分整体的关系，Composite使得用户对单个对象和组合对象的使用具有一致性。
  */
 
-use structural\composite\Knife;
-use structural\composite\Force;
 use structural\composite\BasicRole;
+use structural\composite\Force;
+use structural\composite\Knife;
 use structural\composite\SuperRole;
 
 spl_autoload_register(function ($class) {
