@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\dependency;
+
 /**
  * ---------------------------------------
  * Parameters.php
@@ -27,7 +28,7 @@ interface Parameters
      * 设置参数
      *
      * @param string|int $key
-     * @param mixed $value
+     * @param mixed      $value
      */
     public function set($key, $value);
 }

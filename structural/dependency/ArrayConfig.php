@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\dependency;
+
 /**
  * ---------------------------------------
  * ArrayConfig.php
@@ -20,7 +21,8 @@ class ArrayConfig extends AbstractConfig implements Parameters
      * 获取参数
      *
      * @param string|int $key
-     * @param null $default
+     * @param null       $default
+     *
      * @return mixed
      */
     public function get($key, $default = null)
@@ -35,7 +37,7 @@ class ArrayConfig extends AbstractConfig implements Parameters
      * 设置参数
      *
      * @param string|int $key
-     * @param mixed $value
+     * @param mixed      $value
      */
     public function set($key, $value)
     {

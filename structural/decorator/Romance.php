@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace structural\decorator;
 
 class Romance extends AbstractDecorator

@@ -1,6 +1,7 @@
 <?php
 
 namespace behavioral\observer;
+
 /**
  * ---------------------------------------
  * ObserverFirst.php
@@ -12,6 +13,7 @@ class ObserverSecond implements Observer
 {
     /**
      * @inheritdoc
+     *
      * @param Observable $observable
      */
     public function undo(Observable $observable)

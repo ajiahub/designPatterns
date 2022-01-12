@@ -21,24 +21,22 @@ use behavioral\mediator\Subsystem\Server;
 class Mediator implements MediatorInterface
 {
     /**
+     * @var Subsystem\Database
+     */
+    public $database;
+    /**
+     * @var Subsystem\Client
+     */
+    protected $client;
+    /**
      * @var Subsystem\Server
      */
     private $server;
 
     /**
-     * @var Subsystem\Database
-     */
-    public $database;
-
-    /**
-     * @var Subsystem\Client
-     */
-    protected $client;
-
-    /**
      * @param Subsystem\Database $db
-     * @param Subsystem\Client $cl
-     * @param Subsystem\Server $srv
+     * @param Subsystem\Client   $cl
+     * @param Subsystem\Server   $srv
      */
     public function setColleague(Database $db, Client $cl, Server $srv)
     {
@@ -57,6 +55,7 @@ class Mediator implements MediatorInterface
 
     /**
      * 查询数据库
+     *
      * @return mixed
      */
     public function queryDb()

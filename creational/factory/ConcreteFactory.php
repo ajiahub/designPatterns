@@ -1,6 +1,7 @@
 <?php
 
 namespace creational\factory;
+
 /**
  * ---------------------------------------
  * ConcreteFactory.php
@@ -22,7 +23,7 @@ class ConcreteFactory
     {
         $this->typeList = array(
             'bicycle' => __NAMESPACE__ . '\Bicycle',
-            'other' => __NAMESPACE__ . '\Scooter'
+            'other'   => __NAMESPACE__ . '\Scooter'
         );
     }
 

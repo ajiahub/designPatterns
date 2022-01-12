@@ -1,45 +1,47 @@
 <?php
+
 namespace solid\LiskovSubstitution;
 
-abstract class Parallelogram 
+abstract class Parallelogram
 {
     protected $height;
     protected $width;
-    
+
     public function getWidth()
     {
         return $this->width;
     }
-    
+
     public function getHeight()
     {
         return $this->height;
     }
-    
+
     public function calculateArea()
     {
         return $this->height * $this->width;
     }
-    
+
     public abstract function resize($height, $width);
 }
 
-class Rectangle extends Parallelogram 
+class Rectangle extends Parallelogram
 {
-	public function resize($height, $width)
-	{
-	    $this->height = $height;
-	    $this->width = $width;
-	}
+    public function resize($height, $width)
+    {
+        $this->height = $height;
+        $this->width = $width;
+    }
 }
 
-class Square extends Parallelogram {
-    
-	public function resize($height, $width)
-	{
-	    $this->width = $width;
-	    $this->height = $width;
-	}
+class Square extends Parallelogram
+{
+
+    public function resize($height, $width)
+    {
+        $this->width = $width;
+        $this->height = $width;
+    }
 }
 
 class GraphicEditor

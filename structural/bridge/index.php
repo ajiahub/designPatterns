@@ -1,9 +1,8 @@
 <?php
 
+use structural\bridge\Assemble;
 use structural\bridge\Car;
 use structural\bridge\Produce;
-use structural\bridge\Assemble;
-use structural\bridge\Motorcycle;
 
 /**
  * ---------------------------------------

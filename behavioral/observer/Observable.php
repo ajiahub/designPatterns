@@ -1,6 +1,7 @@
 <?php
 
 namespace behavioral\observer;
+
 /**
  * ---------------------------------------
  * Observable.php

@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\proxy;
+
 /**
  * ---------------------------------------
  * Subject.php

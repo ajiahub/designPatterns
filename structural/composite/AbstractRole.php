@@ -1,11 +1,12 @@
-<?php 
+<?php
+
 namespace structural\composite;
 
 /**
  * 抽象角色类
  */
 abstract class AbstractRole
-{   
+{
 
     public function getComposite()
     {
@@ -18,11 +19,11 @@ abstract class AbstractRole
     public function addEquipment(AbstractRole $role)
     {
         throw new \Exception("我是局部类");
-        
     }
 
     /**
      * 移除装备
+     *
      * @return [type] [description]
      */
     public function removeEquipment(AbstractRole $role)
@@ -32,6 +33,7 @@ abstract class AbstractRole
 
     /**
      * 攻击
+     *
      * @return [type] [description]
      */
     abstract public function attack();

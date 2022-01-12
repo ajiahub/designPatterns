@@ -1,11 +1,13 @@
 <?php
+
 namespace solid\DependencyInversion;
 
 interface PowerDevice
 {
-   public function on();
-   public function off();
-       
+    public function on();
+
+    public function off();
+
 }
 
 class Computer implements PowerDevice
@@ -14,30 +16,30 @@ class Computer implements PowerDevice
     {
         echo 'Windows power on!';
     }
-    
+
     public function off()
     {
         echo 'Windows power off...';
     }
 }
 
-class Button 
+class Button
 {
     /**
      * @var PowerDevice
      */
     private $powerDevice;
-    
+
     public function setPowerDevice(PowerDevice $powerDevice)
     {
         $this->powerDevice = $powerDevice;
     }
-    
+
     public function turnOn()
     {
         if (condition) { //some condition
             $this->powerDevice->on();
         }
     }
-    
+
 }

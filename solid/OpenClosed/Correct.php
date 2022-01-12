@@ -1,9 +1,14 @@
 <?php
+
 namespace solid\OpenClosed;
 
-abstract class Vehicle 
+abstract class Vehicle
 {
-    public function run(){echo "top";}
+    public function run()
+    {
+        echo "top";
+    }
+
     abstract public function turnOn();
 }
 
@@ -31,7 +36,7 @@ class Truck extends Vehicle
     }
 }
 
-class Driver 
+class Driver
 {
     public function drive(Vehicle $vehicle)
     {

@@ -1,6 +1,7 @@
 <?php
 
 namespace creational\factory;
+
 /**
  * ---------------------------------------
  * Scooter.php

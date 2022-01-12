@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\dependency;
+
 /**
  * ---------------------------------------
  * AbstractConfig.php

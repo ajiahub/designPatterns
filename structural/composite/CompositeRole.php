@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace structural\composite;
 
 abstract class CompositeRole extends AbstractRole
@@ -8,6 +9,7 @@ abstract class CompositeRole extends AbstractRole
 
     /**
      * 只有在本类中返回对象
+     *
      * @return [type] [description]
      */
     public function getComposite()
@@ -18,7 +20,7 @@ abstract class CompositeRole extends AbstractRole
 
     public function addEquipment(AbstractRole $role)
     {
-        if (in_array($role,$this->roles)) {
+        if (in_array($role, $this->roles)) {
             return true;
         }
 

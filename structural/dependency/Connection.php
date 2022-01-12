@@ -1,6 +1,7 @@
 <?php
 
 namespace structural\dependency;
+
 /**
  * ---------------------------------------
  * Connection.php
@@ -26,6 +27,7 @@ class Connection
 
     /**
      * Connection constructor.
+     *
      * @param Parameters $config
      */
     public function __construct(Parameters $config)

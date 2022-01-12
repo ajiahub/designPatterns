@@ -1,5 +1,7 @@
 <?php
+
 namespace Creational\FactoryMethod;
+
 /**
  * ---------------------------------------
  * FactoryMethod.php
@@ -18,15 +20,6 @@ abstract class FactoryMethod
     const FAST = 2;
 
     /**
-     * 子类必须实现该方法
-     *
-     * @param string $type a generic type
-     *
-     * @return VehicleInterface a new vehicle
-     */
-    abstract protected function createVehicle($type);
-
-    /**
      * 创建新的车辆
      *
      * @param int $type
@@ -40,4 +33,13 @@ abstract class FactoryMethod
 
         return $obj;
     }
+
+    /**
+     * 子类必须实现该方法
+     *
+     * @param string $type a generic type
+     *
+     * @return VehicleInterface a new vehicle
+     */
+    abstract protected function createVehicle($type);
 }

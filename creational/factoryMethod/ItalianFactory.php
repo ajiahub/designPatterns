@@ -1,5 +1,7 @@
 <?php
+
 namespace Creational\FactoryMethod;
+
 /**
  * ---------------------------------------
  * ItalianFactory.php
@@ -7,6 +9,7 @@ namespace Creational\FactoryMethod;
  * Date: 2019/6/20 10:46
  * ---------------------------------------
  */
+
 /**
  * ItalianFactory是意大利的造车厂
  */
