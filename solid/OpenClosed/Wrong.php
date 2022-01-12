@@ -36,11 +36,11 @@ class Driver
 
     private function turnOnCar()
     {
-        echo 'Turning on the car';
+        echo 'Turning on the car ok';
     }
 
     private function turnOnMotorcycle()
     {
-        echo 'Turning on the motorcycle';
+        echo 'Turning on the motorcycle ok';
     }
 }
