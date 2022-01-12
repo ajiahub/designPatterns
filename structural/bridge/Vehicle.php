@@ -26,6 +26,6 @@ abstract class Vehicle
 
     public function manufacture()
     {
-        //as same
+        //do some different
     }
 }
